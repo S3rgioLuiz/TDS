@@ -80,6 +80,12 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- Para adicionar o JWT nativo do Spring Boot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
